@@ -10,7 +10,7 @@ const Courses = () => {
         .then(res=> res.json())
         .then(data => setCourses(data))
     })
-    console.log(courses);
+    // console.log(courses);
     return (
         <div className='mid-container  '>
             <h1 className='text-2xl border-b-2 pb-3 mt-20 font-bold'>OUR COURSES</h1>
