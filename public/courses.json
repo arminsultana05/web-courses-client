@@ -1,5 +1,47 @@
 [
+    {
+        "id":1,
+        "nmae":"Javascript",
+        "price": 1000,
+        "img": "https://i.postimg.cc/sfwMm3kq/Js.jpg",
+        "desc":"JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries"
+    },
+    {
+        "id":2,
+        "nmae":"React.Js",
+        "price": 1500,
+        "img": "https://i.postimg.cc/8CRRPq7G/react.png",
+        "desc":"JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries"
+    },
+    {
+        "id":3,
+        "nmae":"MongoDb",
+        "price": 2000,
+        "img": "https://i.postimg.cc/j51GqwWB/mongo.jpg",
+        "desc":"JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries"
+    },
+    {
+        "id":4,
+        "nmae":"Tailwind",
+        "price": 1600,
+        "img": "https://i.postimg.cc/52qyH1Ss/tailwind.jpg",
+        "desc":"JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries"
+    },
+    {
+        "id":5,
+        "nmae":"Bootstrap",
+        "price": 1700,
+        "img": "https://i.postimg.cc/cLCPVB50/bootstrap.jpg",
+        "desc":"JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries"
+    },
+    {
+        "id":6,
+        "nmae":"Redux",
+        "price": 2500,
+        "img":"https://i.postimg.cc/fycnHWLF/redux.png",
+        "desc":"JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries"
+    }
 
 
-    
+
 ]
