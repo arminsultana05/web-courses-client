@@ -11,7 +11,7 @@ const Footer = () => {
     const today = new Date()
     const year = today.getFullYear()
     return (
-        <section className="py-11  bg-base-100 mt-20">
+        <section className="py-11  bg-base-100 mt-20 ">
             <div className="container mx-auto">
                 <div className="grid lg:grid-cols-4 md:grid-cols-1 gap-4 mb-11">
                     <div className='logoBorder' >
@@ -38,9 +38,9 @@ const Footer = () => {
                                 <img src={img1} className=" rounded-tl-lg" style={{ width: '100%' }} alt=""></img>
                             </div>
                             <div>
-                                <p className="">Padma River Boatman
-                                    Tree Without Roots
-                                    In Blissful Hell
+                                <p className="">React Native
+                                    TypScript
+                                    ES6
                                 </p>
                                 <h1 className="text-amber-400">10 August 2022</h1>
                             </div>
@@ -50,10 +50,10 @@ const Footer = () => {
                                 <img src={img2} className=" rounded-tl-lg" style={{ width: '100%' }} alt=""></img>
                             </div>
                             <div>
-                                <p className="">Mother of 1084<br />
-                                    Chokher Bali <br />
+                                <p className="">React.js<br />
+                                    MongoDb <br />
 
-                                    Durbin
+                                   Phython
                                 </p>
                                 <h1 className="text-amber-400">3 january 2022</h1>
                             </div>

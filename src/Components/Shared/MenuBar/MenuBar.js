@@ -9,11 +9,11 @@ import '../MenuBar/MenuBar.css'
 
 
 
-const MenuBar = () => {
+const MenuBar = ({handleTroggle}) => {
     const pathname = useLocation().pathname
 
     const [user, loading, error] = useAuthState(auth);
-
+   
     const logout = () => {
         signOut(auth);
     };
@@ -25,26 +25,26 @@ const MenuBar = () => {
                     <span class="ml-3 text-xl">Web-Courses</span>
                 </a>
                 <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-                  <a className ='mr-5 '>  <NavLink to='/' className={`${pathname === '/' ? 'active' :'noactive' }`}> <span>Home</span></NavLink></a>
-                   <a className ='mr-5'> <NavLink to='/courses' className={`${pathname === '/courses' ? 'active' :'noactive'}`}>Courses</NavLink></a>
-                   <a className ='mr-5'> <NavLink to='/blog' className={`${pathname === '/blog' ? 'active' :'noactive'}`}>Blog</NavLink></a>
-                   <a className ='mr-5' > <NavLink to='/contact' className={`${pathname === '/contact' ? 'active' :'noactive'}`}>Contact Us</NavLink></a>
+                    <a className='mr-5 '>  <NavLink to='/' className={`${pathname === '/' ? 'active' : 'noactive'}`}> <span>Home</span></NavLink></a>
+                    <a className='mr-5'> <NavLink to='/courses' className={`${pathname === '/courses' ? 'active' : 'noactive'}`}>Courses</NavLink></a>
+                    <a className='mr-5'> <NavLink to='/blog' className={`${pathname === '/blog' ? 'active' : 'noactive'}`}>Blog</NavLink></a>
+                    <a className='mr-5' > <NavLink to='/contact' className={`${pathname === '/contact' ? 'active' : 'noactive'}`}>Contact</NavLink></a>
                 </nav>
 
                 {/* Dark and Light mode content */}
 
 
+                
 
-
-                <label class="switch mr-10 ">
+                <label className="switch mr-10 ">
                     <input type="checkbox" />
                     <span class="slider"></span>
                 </label>
                 {
-                    user &&  <p className='mr-5'>{user.displayName}</p>
+                    user && <p className='mr-5'>{user.displayName}</p>
                 }
 
-               
+
                 {
                     user ? <Link onClick={logout} class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Log Out
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">

@@ -1,47 +1,38 @@
 [
     {
-        "id":1,
-        "name":"Javascript",
+        "name": "Javascript",
         "price": 1000,
         "img": "https://i.postimg.cc/sfwMm3kq/Js.jpg",
-        "desc":"JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries"
+        "desc": "JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries"
     },
     {
-        "id":2,
-        "name":"React.Js",
+        "name": "React.Js",
         "price": 1500,
         "img": "https://i.postimg.cc/8CRRPq7G/react.png",
-        "desc":"JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries"
+        "desc": "The React. js framework is an open-source JavaScript framework and library developed by Facebook. It's used for building interactive user interfaces and web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript."
     },
     {
-        "id":3,
-        "name":"MongoDb",
+        "name": "MongoDb",
         "price": 2000,
         "img": "https://i.postimg.cc/j51GqwWB/mongo.jpg",
-        "desc":"JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries"
+        "desc": "MongoDB is an open source NoSQL database management program. NoSQL is used as an alternative to traditional relational databases. NoSQL databases are quite useful for working with large sets of distributed data. MongoDB is a tool that can manage document-oriented information,"
     },
     {
-        "id":4,
-        "name":"Tailwind",
+        "name": "Tailwind",
         "price": 1600,
         "img": "https://i.postimg.cc/52qyH1Ss/tailwind.jpg",
-        "desc":"JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries"
+        "desc": "Tailwind CSS is best used to speed up the development process by writing less code. It comes with a design system that helps maintain consistency across various design requirements like padding, spacing, and so forth; with this, you do not have to worry about creating your design systems."
     },
     {
-        "id":5,
-        "name":"Bootstrap",
+        "name": "Bootstrap",
         "price": 1700,
         "img": "https://i.postimg.cc/cLCPVB50/bootstrap.jpg",
-        "desc":"JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries"
+        "desc": "Bootstrap is a free, open source front-end development framework for the creation of websites and web apps. Designed to enable responsive development of mobile-first websites, Bootstrap provides a collection of syntax for template designs."
     },
     {
-        "id":6,
-        "name":"Redux",
+        "name": "Redux",
         "price": 2500,
-        "img":"https://i.postimg.cc/fycnHWLF/redux.png",
-        "desc":"JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries"
+        "img": "https://i.postimg.cc/fycnHWLF/redux.png",
+        "desc": "Bootstrap is a free, open source front-end development framework for the creation of websites and web apps. Designed to enable responsive development of mobile-first websites, Bootstrap provides a collection of syntax for template designs."
     }
-
-
-
 ]

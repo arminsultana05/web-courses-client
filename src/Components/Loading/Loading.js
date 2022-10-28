@@ -1,11 +1,12 @@
 import React from 'react';
+import '../Loading/Loading.css'
 
 const Loading = () => {
     return (
-        <div>
-            <p>Loading....</p>
-            
-        </div>
+        <div className="flex items-center justify-center mt-10">
+            <div className="lds-hourglass ">
+                </div></div>
+        
     );
 };
 

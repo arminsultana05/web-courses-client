@@ -6,10 +6,10 @@ import Course from '../../Course/Course';
 const Courses = () => {
     const [courses, setCourses]= useState([])
     useEffect (()=>{
-        fetch('courses.json')
+        fetch('https://web-backend-8xh7.onrender.com/course')
         .then(res=> res.json())
         .then(data => setCourses(data))
-    })
+    },[])
     // console.log(courses);
     return (
         <div className='mid-container  '>
@@ -19,7 +19,7 @@ const Courses = () => {
                 {
                     courses.map((course)=> 
                     <Course
-                    key={course.id}
+                    key={course._id}
                     course={course}
                     />)
                 }

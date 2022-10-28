@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init'
 import { useForm } from "react-hook-form";
@@ -6,6 +6,7 @@ import { useForm } from "react-hook-form";
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2'
 import Loading from '../../Components/Loading/Loading';
+import useToken from '../../Hooks/useToken';
 
 
 
@@ -18,22 +19,19 @@ const Login = () => {
         loading,
         error,
     ] = useSignInWithEmailAndPassword(auth);
-
-
-   
-
+    const [token] = useToken(user || gUser);
+    
     let signInError;
     const navigate = useNavigate();
     const location = useLocation();
     let from = location.state?.from?.pathname || "/";
-
-   
-        if (user| gUser) {
+    useEffect( () =>{
+        if (token) {
             navigate(from, { replace: true });
         }
+    }, [token, from, navigate])
    
-
-    if (loading || gLoading) {
+if (loading || gLoading) {
         return <Loading/>
     }
 
@@ -56,6 +54,7 @@ const Login = () => {
     if(user || gUser){
         navigate(from, { replace: true });
     }
+    
 
     return (
         <div className='flex h-screen justify-center items-center'>

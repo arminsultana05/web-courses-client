@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2'
 import Loading from '../../Components/Loading/Loading';
+import useToken from '../../Hooks/useToken';
 
 const Register = () => {
     const navigate = useNavigate();
@@ -20,6 +21,7 @@ const Register = () => {
     ] = useCreateUserWithEmailAndPassword(auth);
 
     const [updateProfile, updating, updateError] = useUpdateProfile(auth);
+    const [token] = useToken(gUser || user);
 
 
 
